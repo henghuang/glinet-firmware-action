@@ -172,22 +172,10 @@ tls:
   certificate_path: 
   private_key_path: 
 filters:
-- enabled: true
+- enabled: False
   url: https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
   name: AdGuard DNS filter
   id: 1628750870
-- enabled: true
-  url: https://anti-ad.net/easylist.txt
-  name: anti
-  id: 1628750871
-- enabled: true
-  url: https://neodev.team/lite_adblocker
-  name: lite_adblocker
-  id: 1645339240
-- enabled: true
-  url: https://raw.hellogithub.com/hosts
-  name: github
-  id: 1645339241
 whitelist_filters: []
 user_rules:
 - ""
